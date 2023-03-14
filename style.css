@@ -14,3 +14,10 @@ body {
   padding: 10px 10px;
   color: wheat;
 }
+
+.btn{
+    font-size: 30px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+}
