@@ -15,6 +15,12 @@ body{
     border: none;
     color: #efed40;
     width: max-content;
+    transform: scale(45deg);
+}
+.btn:active{
+  opacity: .6;
+  padding: 21px;
+  transition: .5;
 }
 body {
   background-color: #efed40;
