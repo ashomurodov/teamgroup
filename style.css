@@ -1,5 +1,10 @@
 body{
     background-color: #efed40;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .btn{
@@ -9,6 +14,13 @@ body{
     background-color: black;
     border: none;
     color: #efed40;
+    width: max-content;
+    transform: scale(45deg);
+}
+.btn:active{
+  opacity: .6;
+  padding: 21px;
+  transition: .5;
 }
 body {
   background-color: #efed40;
